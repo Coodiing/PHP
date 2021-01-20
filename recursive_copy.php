@@ -1,4 +1,4 @@
-
+<? 
 /* Recursive copy of $src folder to $dst */
 function recursive_copy($src,$dst) {
 $dir = opendir($src);
@@ -11,3 +11,4 @@ while(false !== ( $file = readdir($dir)) ) {
 }
 closedir($dir);
 }
+?>
