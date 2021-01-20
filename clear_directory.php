@@ -1,5 +1,5 @@
 
-* Clear the specific $folder (recursive) */
+/* Clear the specific $folder (recursive) */
 function clear_directory($folder) {
 $open=@opendir($folder);
 if (!$open) return;
