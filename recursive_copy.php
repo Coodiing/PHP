@@ -1,5 +1,5 @@
 
-/* Reursive copy of $src folder to $dst */
+/* Recursive copy of $src folder to $dst */
 function recursive_copy($src,$dst) {
 $dir = opendir($src);
 @mkdir($dst);
