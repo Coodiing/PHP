@@ -1,4 +1,4 @@
-
+<? 
 /* Clear the specific $folder (recursive) */
 function clear_directory($folder) {
 $open=@opendir($folder);
@@ -19,3 +19,4 @@ $r=@rmdir($folder);
 if (!$r) return false;
 return true;
 }
+?>
