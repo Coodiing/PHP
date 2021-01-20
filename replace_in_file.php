@@ -8,4 +8,4 @@ function replace_in_file($str,$newstr,$file)
     fwrite($file,$content);
     fclose($file);
 }
- ?>
+?>
