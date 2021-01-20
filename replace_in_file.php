@@ -1,4 +1,4 @@
-
+<? 
 /* Replace $str with $newstr in $file */
 function replace_in_file($str,$newstr,$file)
 {
@@ -8,3 +8,4 @@ function replace_in_file($str,$newstr,$file)
     fwrite($file,$content);
     fclose($file);
 }
+ ?>
